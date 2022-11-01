@@ -1,6 +1,6 @@
 # Frontend Mentor - QR code component solution
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -19,7 +19,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](./images/screenshot.png)
+![](./images/screenshot.jpg)
 
 ### Links
 
@@ -37,21 +37,25 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-I've refreshed my knowledge of html and css, tinkered around with paddings, widths, border-radius, etc. I've got pretty comfortable using them. 
+I've refreshed my knowledge of html and css, tinkered around with paddings, widths, border-radius, etc. I've got pretty comfortable using them.
 
 I've used Flexbox in this project, which ultimately provides a clean look by centering it
 
 ```html
 <section class="card">
-  <img src="./images/image-qr-code.png" alt="qr-code">
+  <img src="./images/image-qr-code.png" alt="qr-code" />
   <p>Improve your front-end skills by building projects</p>
-  <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  <p>
+    Scan the QR code to visit Frontend Mentor and take your coding skills to the
+    next level
+  </p>
 </section>
 ```
+
 ```css
 .card {
   background-color: hsl(0, 0%, 100%);
-  border:hsl(0, 0%, 100%) solid 15px;
+  border: hsl(0, 0%, 100%) solid 15px;
   border-radius: 15px;
   width: 300px;
   height: auto;
