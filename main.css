@@ -33,11 +33,12 @@ body {
   background-color: hsl(0, 0%, 100%);
   border: hsl(0, 0%, 100%) solid 15px;
   border-radius: 15px;
-  width: 300px;
+  width: 280px;
   height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-shadow: 5px 5px 10px hsl(220, 15%, 75%);
 }
 
 .card img {
@@ -81,4 +82,3 @@ h1 {
 .attribution {
   display: none;
 }
-
